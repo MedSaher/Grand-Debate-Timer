@@ -1,0 +1,81 @@
+#timer {
+  font-size: 54px;
+  text-align: center;
+  color: white;
+}
+
+body {
+  overflow: hidden;
+  background: blue;
+  background-size: cover;
+  height: 100%;
+  margin: 0;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 20px;
+  transition: .5s;
+}
+
+header {
+  height: 120px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  text-align: center;
+  position: relative;
+}
+
+.container .card {
+  width: 30%;
+  margin: auto;
+}
+
+.container .card img {
+  width: 40%;
+}
+
+.container .card h4,
+.container .card p {
+  color: yellow;
+  font-size: 30px;
+}
+
+.pied {
+  font-size: 40px;
+}
+
+footer {
+text-align: center;
+background: white;
+height: 140px;
+display: flex;
+flex-direction: column;
+margin-top: 40px;
+}
+
+
+footer img {
+  position: relative;
+  bottom: 35px;
+  width: 80px;
+  margin-bottom: 155px;
+}
+
+footer .bottom {
+  display: flex;
+  justify-content: space-evenly;
+}
+.focus{
+  font-size: 50px !important;
+  transition: .5s ease-in-out;
+
+}
+.focus-img{
+  width: 52% !important;
+  transition: .5s ease-in-out;
+
+}
